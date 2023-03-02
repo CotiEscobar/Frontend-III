@@ -1,13 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import ItemList from './components/ItemList'
+import './styles/Form.css'
+import Form from './components/form/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <ItemList></ItemList>
+      <Form></Form>
     </div>
   )
 }
